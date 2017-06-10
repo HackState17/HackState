@@ -194,3 +194,14 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
+
+
+// $(window).resize(function () {
+//     var offset = $(".owl-carousel .item > .mybox").outerHeight() / 2;
+//     document.getElementById("dynamicCaption").style.top = "calc((50% + 68px) - " + offset + "px) !important";
+// });
+
+// $(document).ready(function () {
+//     var offset = $(".owl-carousel .item > .mybox").outerHeight() / 2;
+//     document.getElementById("dynamicCaption").style.top = "calc((50% + 68px) - " + offset + "px) !important"; 
+// });

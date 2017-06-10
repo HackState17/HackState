@@ -8,7 +8,6 @@
 -->
 <html lang="en-US">
 	<head>
-
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>HackState</title>
@@ -35,8 +34,17 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/mobile.css">
 
+		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+		<link rel="manifest" href="favicons/manifest.json">
+		<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
+
+
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skin/cool-gray.css">
+        <link rel="stylesheet" href="css/custom.css">
         <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
@@ -72,7 +80,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                      <a class="navbar-brand page-scroll" href="index.html">Unika</a>
+                      <a class="navbar-brand page-scroll" href="index.html"><img src="img/logo2.png" width=80% height=60% alt="logo"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -97,18 +105,22 @@
             
         	<!-- Begin text carousel intro section -->
 
-			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/chapel.jpg);">
+			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/chapelOver.png);">
 				
 				<div class="container">
-					<div class="caption text-center text-white" data-stellar-ratio="0.7">
-
+					<div id="dynamicCaption" class="caption text-center" data-stellar-ratio="0.7">
 						<div id="owl-intro-text" class="owl-carousel bgBlack">
 							<div class="item">
-								<h1>Hack<b>State</b></h1>
-								<p>Mississippi State University</p>
-                                <p>September 23-24
-                                <div class="extra-space-l"></div>
-								<a class="btn btn-blank page-scroll" href="#about-section"  role="button">Learn more</a>
+                                <div class="row-fluid" id="frontLogo">  
+                                    <div class="col-md-7col-sm-12 text-white">
+                                        <img src="img\logoTrans.png" alt="logo" height="30%" width="60%">
+
+                                        <h4>Mississippi State University</h4>
+                                        <h4>September 23-24</h4>
+                                        
+                                        <a class="btn btn-blank page-scroll" href="#about-section" role="button">Learn more</a>
+                                    </div>
+                                </div>
 							</div>
 						</div>
 					</div> <!-- /.caption -->
@@ -121,7 +133,7 @@
                 
                 
             <!-- Begin about section -->
-			<section id="about-section" class="dark-page short-pages bg-style1">
+			<section id="about-section" class="dark-page bg-style1">
                 <!-- Begin page header-->
                 <div class="page-header-wrapper">
                     <div class="container">
@@ -149,7 +161,7 @@
                 <div class="page-header-wrapper">
                     <div class="container">
                         <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
-                            <h4>A Weekend at HackState</h4>
+                            <h3>A Weekend at HackState</h3>
                         </div>
                     </div>
                 </div>
@@ -212,6 +224,7 @@
                     </div> <!-- /.container -->
                 </div>
                 <!-- End Our Skill -->
+                <div class="extra-space-l"></div>
           </section>
           <!-- End about section -->
 
@@ -236,19 +249,19 @@
                 <!-- Begin roatet box-2 -->
                 <div class="rotate-box-2-wrapper">
                     <div class="container">
-                        <div class="row">
+                        <div class="row row-flex row-flex-wrap">
                             <div class="col-md-3 col-sm-6">
                                 <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0">
                                     <span class="rotate-box-icon"><i class="fa fa-code"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>What is a hackathon?</h4>
-                                        <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor incidist.</p>
+                                        <p>A hackathon is sprint-like coding competition. Over the course of 24 hours, hackers design and build web applications, mobile applications, and hardware innovations.</p>
                                     </div>
                                 </a>
                             </div>
             
                             <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0s">
                                     <span class="rotate-box-icon"><i class="fa fa-map-marker"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Where is HackState located?</h4>
@@ -258,17 +271,17 @@
                             </div>
             
                             <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0s">
                                     <span class="rotate-box-icon"><i class="fa fa-car"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Where can I park?</h4>
-                                        <p>You can park for free here.</p>
+                                        <p>Hackers can park here. Sponsors have two reserved spots here.</p>
                                     </div>
                                 </a>
                             </div>
                             
                             <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0s">
                                     <span class="rotate-box-icon"><i class="fa fa-edit"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Who can participate?</h4>
@@ -277,7 +290,7 @@
                                 </a>
                             </div>
                             <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0s">
                                     <span class="rotate-box-icon"><i class="fa fa-child"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>What if I am beginner?</h4>
@@ -287,7 +300,7 @@
                             </div>
             
                             <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0s">
                                     <span class="rotate-box-icon"><i class="fa fa-lightbulb-o"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>What if I don't have a team or idea?</h4>
@@ -297,7 +310,7 @@
                             </div>
             <!-- will often find inspiration for ideas at the hackathon. everyone attending to step out of their comfort zone and make new friends. towards beginners and mentors to help you throughout the event.!-->
                             <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0s">
                                     <span class="rotate-box-icon"><i class="fa fa-users"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>How big can teams be? Can I hack alone?</h4>
@@ -307,7 +320,7 @@
                             </div>
                             
                             <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0s">
                                     <span class="rotate-box-icon"><i class="fa fa-money"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Does it cost money?</h4>
@@ -326,7 +339,7 @@
                             </div>
             
                             <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0s">
                                     <span class="rotate-box-icon"><i class="fa fa-cutlery"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Will food be provided?</h4>
@@ -336,7 +349,7 @@
                             </div>
             
                             <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0s">
                                     <span class="rotate-box-icon"><i class="fa fa-suitcase"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>What do I need to bring?</h4>
@@ -346,7 +359,7 @@
                             </div>
                             
                             <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0s">
                                     <span class="rotate-box-icon"><i class="fa fa-legal"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Is there a Code of Conduct?</h4>
@@ -422,9 +435,7 @@
                                               
         </div><!-- body ends -->
         
-        
-        
-        
+       
         <!-- Plugins JS -->
 		<script src="inc/jquery/jquery-1.11.1.min.js"></script>
 		<script src="inc/bootstrap/js/bootstrap.min.js"></script>
