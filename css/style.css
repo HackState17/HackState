@@ -174,7 +174,7 @@ bgBlack{
 	background-position: left center;
 	width: 215px;
 	height: auto;
-	padding: 24px 0;
+	padding: 18px 0;
 	text-indent: -99999px;
 	font-size: 24px;
 	font-weight: 600;
@@ -1006,6 +1006,11 @@ p.subtitle {
 
 
 /* ===== Begin OWL carousel ===== */
+/* This id was missing. Fixed wierd pointer displaying on logo hover */
+#owl-intro-text {
+   pointer-events: none; 
+}
+
 .owl-carousel {
 	cursor: e-resize;
 }
@@ -1065,6 +1070,7 @@ p.subtitle {
 	position: relative;
 	letter-spacing: 1.5px;
 	border: none;
+    pointer-events: auto;
 }
 .btn:active {
 	top: 2px;
