@@ -15,8 +15,8 @@ h4{
 
 /* Three columns side by side */
 .columnTeam {
-    float: left;
-    width: 33.3%;
+    display: inline-flex;
+    width: 33%;
     margin-bottom: 16px;
     padding: 0 8px;
     left: 50%;
@@ -35,6 +35,10 @@ h4{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.rowTeam {
+	text-align: center;
+}
+
 .rowBottom{
 	display: block;
 	margin: auto;
@@ -43,6 +47,7 @@ h4{
 /* Some left and right padding inside the container */
 .containerTeam {
     padding: 12px;
+    text-align: left;
 }
 
 /* Clear floats */
