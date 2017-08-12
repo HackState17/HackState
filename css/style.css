@@ -26,6 +26,33 @@ h4{
     left: 20%;
 }
 
+.register{
+	border: 2px solid #660000;
+    color: #600;
+    padding: 8px 12px;
+    margin: 4px 4px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgba(255, 255, 255, .5);
+}
+
 /* Display the columns below each other instead of side by side on small screens */
 @media (max-width: 900px) {
     .columnTeam {
@@ -82,7 +109,7 @@ h4{
 }
 
 #frontLogo{
-	padding-top: 180px;
+	padding-top: 140px;
 }
 html {
 	height: 100% !important;
