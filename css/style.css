@@ -1181,6 +1181,10 @@ p.subtitle {
 	transition: all 0.6s ease-in-out;
 }
 
+#flag{
+	color: #357354;
+}
+
 /* Button blank */
 .btn-blank {
 	border: 2px solid #000;
