@@ -17,10 +17,25 @@ h4{
 	text-align: center;
 }
 
+.img-section {
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.copyright a:link, .copyright  a:visited {
+    color: #fff;
+}
+
+.copyright a:hover, .copyright a:active {
+    color: #aaa;
+}
+
 /* Three columns side by side */
 .columnTeam {
     display: inline-flex;
-    width: 35%;
+    width: 28%;
     margin-bottom: 16px;
     padding: 0 6px;
     left: 20%;
@@ -387,6 +402,7 @@ bgBlack{
 /* Begin text carousel intro */
 #text-carousel-intro-section {
 	height: 100%;
+    min-height: 450px;
 }
 #text-carousel-intro-section .container {
 	height: 100%;

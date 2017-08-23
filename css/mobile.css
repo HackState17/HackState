@@ -20,6 +20,12 @@
     .dropdown-hover:hover > .dropdown-menu {
         display: block;
     }
+    
+    .navbar-nav {
+        margin: 0;
+        position: fixed;
+        right: 180px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -172,6 +178,10 @@
 	}
 
 	/* Navbar collapse / links */
+    .navbar .container {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
 	.navbar-collapse {
 		border-width: 2px;
 	}
@@ -270,12 +280,6 @@
 	 #team-section .col-md-2 {
         width: 100%;
     }
-
-    .navbar .container {
-        padding-right: 25px;
-        padding-left: 25px;
-    }
-
 }
 
 /* Custom, iPhone Retina */ 
