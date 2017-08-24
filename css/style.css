@@ -24,14 +24,6 @@ h4{
     background-size: cover;
 }
 
-.copyright a:link, .copyright  a:visited {
-    color: #fff;
-}
-
-.copyright a:hover, .copyright a:active {
-    color: #aaa;
-}
-
 /* Three columns side by side */
 .columnTeam {
     display: inline-flex;
@@ -1024,11 +1016,18 @@ ul.contact-address li i {
 }
 .footer a{
 	text-decoration: none;
+    cursor: pointer;
 }
 .footer h1 {
     text-align: center;
     margin: 10px;
     font-size: 30px;
+}
+.footer a:link, .footer  a:visited {
+    color: #fff;
+}
+.footer a:hover, .footer a:active {
+    color: #aaa;
 }
 
 /*Widget1: Useful Links*/
