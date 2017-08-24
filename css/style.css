@@ -1025,6 +1025,11 @@ ul.contact-address li i {
 .footer a{
 	text-decoration: none;
 }
+.footer h1 {
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
 
 /*Widget1: Useful Links*/
 ul.imp-links {
