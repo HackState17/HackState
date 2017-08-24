@@ -55,10 +55,11 @@ h4{
 /* Three columns side by side */
 .columnTeam {
     display: inline-flex;
-    width: 28%;
+    width: 23%;
+    min-width: 220px;
     margin-bottom: 16px;
+    max-width: 300px;
     padding: 0 6px;
-    left: 20%;
 }
 
 .register{
@@ -103,6 +104,9 @@ h4{
 
 .rowTeam {
 	text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .rowBottom{
