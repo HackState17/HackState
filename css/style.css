@@ -23,10 +23,18 @@ h4{
     margin-bottom: 20px;
 }
 
+.white-tier img {
+    width: 75%;
+    max-width: 650px;
+    margin-bottom: 20px;
+}
+
 .gray-tier img {
     width: 70%;
     max-width: 600px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .local-tier img {
